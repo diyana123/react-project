@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Nuosu+SIL&display=swap');
+
+body {
+  margin: 0;
+  //padding: 20px 40px;
+  padding: 0;
+  font-family: 'Open Sans Condensed', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  // @media screen and (max-width : 800px) {
+  //   padding:10px;
+  // }
+}
+
+.home{
+  display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a {
+  text-decoration: none;
+  color:white;
+  
+}
+
+* {
+  box-sizing: border-box;
+  
+}
+h2{
+  margin-left:20px;
+}
+
+$breakpoints: (
+  "exsmall_320": (
+    max-width: 330px,
+  ),
+  "exsmall_360": (
+    max-width: 360px,
+  ),
+  "exsmall": (
+    max-width: 375px,
+  ),
+  "exsmall_1": (
+    max-width: 393px,
+  ),
+  "exsmall_414": (
+    max-width: 414px,
+  ),
+  "exsmall_574": (
+    max-width: 574px,
+  ),
+  "small": (
+    //max-width: 767px,
+    
+   max-width: 750px,
+  ),
+  "medium": (
+    max-width: 991px,
+  ),
+  
+  "medium_lg": (
+    // max-width: 1026px,
+    max-width: 1242px,
+  ),
+  
+  "large": (
+    max-width: 1199px,
+  ),
+  "ex_large_max": (
+    max-width: 1440px,
+  ),
+  "min1440px": (
+    min-width: 1440px,
+  ),
+  "ex_large": (
+    max-width: 1920px,
+  ),
+  "min768": (
+    min-width: 768px,
+  ),
+) !default;

@@ -1,0 +1,130 @@
+.banner {
+    margin-top: 0;
+    padding: 260px 0 100px 0;
+    background-color: antiquewhite;
+    background-image: url('');
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    @media screen and (max-width : 800px) {
+        padding:20px;
+      }
+
+
+      img{
+        height:800px;
+        width:550px;
+        margin-left:1200px;
+        margin-top:-350px;
+        transition: all 0.2s linear;
+
+        @include respond-to ("exsmall_414") {
+          height:400px;
+          width:300px;
+          margin-left:40px;
+        margin-top:50px;
+          }
+
+      
+
+
+     @include respond-to('exsmall') {
+    margin-left: 18px;
+    margin-top: 10px;
+       }
+      }
+  }
+
+  .banner h1 {
+    font-size: 65px;
+    color:rgb(56, 53, 53);
+  
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    line-height: 1;
+    margin-bottom: 20px;
+    display: block;
+
+    @include respond-to ("exsmall_414") {
+    font-weight:700;
+    font-size:35px;
+    }
+
+    @include respond-to('exsmall') {
+    font-size: 30px;
+       }
+    
+  }
+  .banner .clothes{
+    word-break:break-all;
+  width:10;
+    font-weight: 700;
+  letter-spacing: 0.8px;
+  padding: 20px 10px 0px 120px;
+  //background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
+  //border: 1px solid rgba(255, 255, 255, 0.5);
+  font-size: 20px;
+  margin-bottom: 16px;
+  //display: inline-block;
+  display: flex;
+
+  @include respond-to ("exsmall_414") {
+ padding: 22px 43px 0px 55px;
+  }
+
+  
+  }
+
+  .banner button {
+    color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 40px;
+  margin-left: 400px;
+  letter-spacing: 0.8px;
+  display: flex;
+  align-items: center;
+
+  @include respond-to ("exsmall_414") {
+    margin-left:188px;
+    margin-top:20px;
+    height:50px;
+    padding:0px 12px;
+     }
+
+     @include respond-to('exsmall') {
+    height:60px;
+    margin-left: 180px;
+    line-height: 0.9;
+    //padding: 0px 0px;
+     }
+      
+
+  }
+  
+  .banner .button .icon {
+    font-size: 25px;
+    margin-left: 10px;
+    transition: 0.3s ease-in-out;
+    line-height: 1;
+
+  }
+
+  .banner .button .icon :hover .icon {
+    margin-left:20px;
+  }
+
+// .image{
+//    // object-fit:cover;
+//    margin-left: 20px;
+//    height:10px;
+//     // width:50%;
+//     // height:50%;
+//     // //position:fixed;
+//   // z-index:-1
+    
+// }
+
+  
+            
